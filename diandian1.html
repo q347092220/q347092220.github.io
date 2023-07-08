@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+   <link rel="shortcut icon" href="https://i.imgtg.com/2023/06/03/OqljUG.jpg" type="image/x-icon" /> 
     
     <title>&nbsp;&nbsp;.&nbsp;&nbsp;.</title>
 
@@ -475,11 +475,17 @@ window.addEventListener('load', function () {
 
 	</script>
 	</div>
-<audio src=
- "http://music.163.com/song/media/outer/url?id=2021500444.mp3" 
-loop="loop" autoplay="autoplay">
- </audio>
+<audio autoplay="autopaly" loop="loop" id="audios">
+    <source src="http://music.163.com/song/media/outer/url?id=2021500444.mp3" type="audio/mp3" />
+</audio>
+ 
+<script>
 
+document.addEventListener('click', function() {
+    document.getElementById('audios').play()
+})
+ 
+</script>
 
 </body>
 
